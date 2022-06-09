@@ -15,6 +15,6 @@
     "yarn": "1.x"
   },
   "scripts": {
-    "build": "rfbrowser clean-node;rfbrowser init --skip-browsers; npx playwright install chromium;"
+    "build": "npm install @playwright/test; npx playwright install chromium;"
   }
 }
