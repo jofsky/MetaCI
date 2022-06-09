@@ -15,6 +15,6 @@
     "yarn": "1.x"
   },
   "scripts": {
-    "build": "rfbrowser init; rm -rf ~/.cache/ms-playwright/firefox* ~/.cache/ms-playwright/webkit*"
+    "build": "rfbrowser init; rm -rf ~/.cache/ms-playwright/firefox* ~/.cache/ms-playwright/webkit*; rm -rf ~/.cache/ms-playwright/chromium-1005/chrome-linux/locales;rm -rf ~/.cache/ms-playwright/chromium-1005/chrome-linux/chrome_sandbox"
   }
 }
