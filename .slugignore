@@ -1,4 +1,11 @@
 /.circleci
 /.github
 docker-compose.yml
-env.example
+.env.example
+.flake8
+docs
+docker
+README.rst
+Makefile
+.devcontainer
+CODE_OF_CONDUCT.md
