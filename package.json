@@ -15,6 +15,6 @@
     "yarn": "1.x"
   },
   "scripts": {
-    "build": "pip install robotframework-browser; rfbrowser init"
+    "build": "rfbrowser init --skip-browsers"
   }
 }
