@@ -14,5 +14,7 @@
     "node": "16.x",
     "yarn": "1.x"
   },
-  "scripts": "pip install robotframework-browser; rfbrowser init"
+  "scripts": {
+    "build": "pip install robotframework-browser; rfbrowser init"
+  }
 }
