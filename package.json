@@ -15,6 +15,6 @@
     "yarn": "1.x"
   },
   "scripts": {
-    "build": "rfbrowser clean-node;rfbrowser init;export PLAYWRIGHT_BROWSERS_PATH=$HOME/pw-browsers npx playwright install "
+    "build": "rfbrowser clean-node;rfbrowser init --skip-browsers;export PLAYWRIGHT_BROWSERS_PATH=$HOME/pw-browsers npx playwright install "
   }
 }
