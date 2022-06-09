@@ -9,3 +9,9 @@ README.rst
 Makefile
 .devcontainer
 CODE_OF_CONDUCT.md
+.chromedriver
+.sfdx
+.salesforce
+.pre-commit-config.yaml
+.dockerignore
+CONTRIBUTING.rst
