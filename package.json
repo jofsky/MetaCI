@@ -15,6 +15,6 @@
     "yarn": "1.x"
   },
   "scripts": {
-    "build": "rfbrowser init; rm -rf ~/.cache/ms-playwright/firefox* ~/.cache/ms-playwright/webkit*; rm -rf ~/.cache/ms-playwright/chromium-1005/chrome-linux/locales;rm -rf ~/.cache/ms-playwright/chromium-1005/chrome-linux/chrome_sandbox"
+    "build": "rfbrowser init --skip-browsers; mkdir -p /app/.heroku/python/lib/python3.9/site-packages/Browser/wrapper/node_modules/playwright-core/.local-browsers/chromium-1005/chrome-linux; cp /app/.apt/usr/bin/google-chrome /app/.heroku/python/lib/python3.9/site-packages/Browser/wrapper/node_modules/playwright-core/.local-browsers/chromium-1005/chrome-linux/chrome;chmod +x /app/.heroku/python/lib/python3.9/site-packages/Browser/wrapper/node_modules/playwright-core/.local-browsers/chromium-1005/chrome-linux/chrome"
   }
 }
