@@ -15,6 +15,6 @@
     "yarn": "1.x"
   },
   "scripts": {
-    "build": "rfbrowser init; npm uninstall firefox webkit"
+    "build": "rfbrowser init; rm -rf ~/.cache/ms-playwright/firefox* ~/.cache/ms-playwright/webkit*"
   }
 }
