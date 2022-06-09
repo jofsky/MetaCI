@@ -15,6 +15,6 @@
     "yarn": "1.x"
   },
   "scripts": {
-    "build": "rfbrowser init --skip-browsers"
+    "build": "export PLAYWRIGHT_BUILDPACK_BROWSERS='chromium'; rfbrowser init"
   }
 }
